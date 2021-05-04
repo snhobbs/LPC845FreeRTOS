@@ -25,7 +25,7 @@ endif()
 #------------------------------------------------------------
 # Add Project Sources
 #------------------------------------------------------------
-include(${CMAKE_CURRENT_SOURCE_DIR}/CMakeStaticAnalysis/Utilities.cmake)
+include(${LibraryDirectory}/CMakeStaticAnalysis/Utilities.cmake)
 foreach (directory ${ProjectSourceDirectories})
     AUX_SOURCE_DIRECTORY(${directory} SourceFiles)
 endforeach ()
