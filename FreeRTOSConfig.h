@@ -57,8 +57,9 @@
 
 #ifndef __IASMARM__
 /* For SystemCoreClock */
-#include "LPC845.h"
+#include <stdint.h>
 #include "portmacro.h"
+#include "LPC845.h"
 #include "system_LPC845.h"
 #endif
 
@@ -95,6 +96,7 @@
 #define configUSE_COUNTING_SEMAPHORES	1
 #define configGENERATE_RUN_TIME_STATS	0
 #define configUSE_TICKLESS_IDLE		1
+#define configSUPPORT_DYNAMIC_ALLOCATION 1
 
 /* Co-routine definitions. */
 #define configUSE_CO_ROUTINES 		0
