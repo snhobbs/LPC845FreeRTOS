@@ -1,3 +1,9 @@
 [submodule "FreeRTOS"]
-	path = libs/FreeRTOS
+	path = demo/libs/FreeRTOS
+	url = git@github.com:FreeRTOS/FreeRTOS.git
+[submodule "demo/CMakeStaticAnalysis"]
+	path = demo/CMakeStaticAnalysis
+	url = git@github.com:snhobbs/CMakeStaticAnalysis.git
+[submodule "demo/libs/FreeRTOS"]
+	path = demo/libs/FreeRTOS
 	url = git@github.com:FreeRTOS/FreeRTOS.git
